@@ -43,7 +43,7 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        listing: "listing@https://special-funicular-q94rr9gqg4j364wg-3001.app.github.dev/remoteEntry.js",
+        listing: "listing@localhost:3000/remoteEntry.js",
         cart: "cart@https://special-funicular-q94rr9gqg4j364wg-3002.app.github.dev/remoteEntry.js",
         checkout: "checkout@https://special-funicular-q94rr9gqg4j364wg-3003.app.github.dev/remoteEntry.js"
       },
