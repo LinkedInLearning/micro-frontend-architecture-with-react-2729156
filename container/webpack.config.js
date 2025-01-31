@@ -43,9 +43,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: 'container',
       remotes: {
-        listing: "listing@https://special-funicular-q94rr9gqg4j364wg-3001.app.github.dev/remoteEntry.js",
-        cart: "cart@https://special-funicular-q94rr9gqg4j364wg-3002.app.github.dev/remoteEntry.js",
-        checkout: "checkout@https://special-funicular-q94rr9gqg4j364wg-3003.app.github.dev/remoteEntry.js"
+        listing: "listing@https://fantastic-capybara-x9p669qw677h9qpx-3001.app.github.dev/remoteEntry.js",
+        cart: "cart@https://fantastic-capybara-x9p669qw677h9qpx-3002.app.github.dev/remoteEntry.js",
+        checkout: "checkout@https://fantastic-capybara-x9p669qw677h9qpx-3003.app.github.dev/remoteEntry.js"
       },
       shared: ['react', 'react-dom'],
     }),
