@@ -36,7 +36,7 @@ const CheckoutPage = () => {
     localStorage.setItem("orders", JSON.stringify(orders));
 
     // Then navigate to ThankYou page
-    navigate("/thank-you");
+    navigate("/checkout/thank-you");
   };
 
   return (
