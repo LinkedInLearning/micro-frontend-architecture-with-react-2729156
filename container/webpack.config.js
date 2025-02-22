@@ -48,15 +48,12 @@ module.exports = {
       shared: {
         react: {
           singleton: true,
-          requiredVersion: require("./package.json").dependencies.react,
         },
         "react-dom": {
           singleton: true,
-          requiredVersion: require("./package.json").dependencies["react-dom"],
         },
         "react-router-dom": {
           singleton: true,
-          requiredVersion: require("./package.json").dependencies["react-router-dom"],
         },
       }
     }),
