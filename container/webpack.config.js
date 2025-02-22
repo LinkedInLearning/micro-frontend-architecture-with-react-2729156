@@ -12,8 +12,8 @@ module.exports = {
     historyApiFallback: true,
   },
   output: {
-    // publicPath: "auto",
-    publicPath: "http://localhost:3000/",
+    publicPath: "auto",
+    // publicPath: "http://localhost:3000/",
   },
   resolve: {
     extensions: [".js", ".jsx"],
