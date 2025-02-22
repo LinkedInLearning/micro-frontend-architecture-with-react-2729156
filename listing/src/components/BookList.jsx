@@ -8,21 +8,21 @@ const books = [
     title: "Losing Hansley Manor",
     author: "M.Y. Storie",
     price: 20.99,
-    image: "http://localhost:3000/assets/mano.png",
+    image: "https://cuddly-guacamole-x9p669qwj47c65v6-3000.app.github.dev/assets/mano.png",
   },
   {
     id: 2,
     title: "The Summer Heist",
     author: "M.Y. Storie",
     price: 35.75,
-    image: "http://localhost:3000/assets/summer.png",
+    image: "https://cuddly-guacamole-x9p669qwj47c65v6-3000.app.github.dev/assets/summer.png",
   },
   {
     id: 3,
     title: "Whispers of a Town called Luna",
     author: "M.Y. Storie",
     price: 65.45,
-    image: "http://localhost:3000/assets/whispers.png",
+    image: "https://cuddly-guacamole-x9p669qwj47c65v6-3000.app.github.dev/assets/whispers.png",
   },
 ];
 
