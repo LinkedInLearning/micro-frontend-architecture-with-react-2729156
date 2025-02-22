@@ -10,7 +10,7 @@ const ThankYouPage = () => {
   const mostRecentOrder = orders[orders.length - 1];
 
   const handleReturnShopping = () => {
-    navigate("/");
+    navigate("/listing");
   };
 
   // Safely extract fields; if the user didn't store some data, default to "N/A".

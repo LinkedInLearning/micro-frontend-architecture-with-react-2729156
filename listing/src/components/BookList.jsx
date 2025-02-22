@@ -8,22 +8,22 @@ const books = [
     title: "Losing Hansley Manor",
     author: "M.Y. Storie",
     price: 20.99,
-    image: "https://fantastic-capybara-x9p669qw677h9qpx-3000.app.github.dev/assets/mano.png"
+    image: "http://localhost:3000/assets/mano.png",
   },
   {
     id: 2,
     title: "The Summer Heist",
     author: "M.Y. Storie",
     price: 35.75,
-    image: "https://fantastic-capybara-x9p669qw677h9qpx-3000.app.github.dev/assets/summer.png"
+    image: "http://localhost:3000/assets/summer.png",
   },
   {
     id: 3,
     title: "Whispers of a Town called Luna",
     author: "M.Y. Storie",
     price: 65.45,
-    image: "https://fantastic-capybara-x9p669qw677h9qpx-3000.app.github.dev/assets/whispers.png"
-  }
+    image: "http://localhost:3000/assets/whispers.png",
+  },
 ];
 
 const BookList = () => {
@@ -63,7 +63,7 @@ const BookList = () => {
               <p className="text-2xl font-bold text-gray-900">${book.price}</p>
               <div className="flex gap-2 mt-2 mb-2">
                 <Link
-                  to={`/${book.id}`}
+                  to={`/listing/${book.id}`}
                   className="py-1.5 px-3 text-sm font-medium text-gray-900 focus:outline-none bg-white rounded-lg border border-gray-200 hover:bg-gray-100 hover:text-blue-700 focus:z-10 focus:ring-4 focus:ring-gray-100 dark:focus:ring-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:border-gray-600 dark:hover:text-white dark:hover:bg-gray-700"
                 >
                   View Details

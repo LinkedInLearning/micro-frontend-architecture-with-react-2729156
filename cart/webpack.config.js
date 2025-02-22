@@ -12,7 +12,8 @@ module.exports = {
     historyApiFallback: true
   },
   output: {
-    publicPath: 'auto',
+    // publicPath: 'auto',
+    publicPath: 'http://localhost:3002/',
   },
   resolve: {
     extensions: ['.js', '.jsx'],
@@ -45,7 +46,21 @@ module.exports = {
       exposes: {
         './App': './src/App',
       },
-      shared: ['react', 'react-dom'],
+      // shared: ['react', 'react-dom', 'react-router-dom'],
+      shared: {
+        react: {
+          singleton: true,
+          requiredVersion: require('./package.json').dependencies.react
+        },
+        'react-dom': {
+          singleton: true,
+          requiredVersion: require('./package.json').dependencies['react-dom']
+        },
+        'react-router-dom': {
+          singleton: true,
+          requiredVersion: require('./package.json').dependencies['react-router-dom']
+        },
+      },
     }),
     new HtmlWebpackPlugin({
       template: './public/index.html',
