@@ -40,9 +40,9 @@ module.exports = {
     new ModuleFederationPlugin({
       name: "container",
       remotes: {
-        listing: "listing@http://localhost:3001/remoteEntry.js",
-        cart: "cart@http://localhost:3002/remoteEntry.js",
-        checkout: "checkout@http://localhost:3003/remoteEntry.js",
+        listing: "listing@https://cuddly-guacamole-x9p669qwj47c65v6-3001.app.github.dev/remoteEntry.js",
+        cart: "cart@https://cuddly-guacamole-x9p669qwj47c65v6-3002.app.github.dev/remoteEntry.js",
+        checkout: "checkout@https://cuddly-guacamole-x9p669qwj47c65v6-3003.app.github.dev/remoteEntry.js",
       },
       // shared: ["react", "react-dom", "react-router-dom"],
       shared: {
