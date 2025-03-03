@@ -30,5 +30,5 @@ To resolve this issue:
 [0]: # (Replace these placeholder URLs with actual course URLs)
 
 [lil-course-url]: https://www.linkedin.com/learning/micro-front-end-architecture-with-react
-[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQFiK74YvPrQZQ/learning-public-crop_675_1200/B4EZUlNmbzHcAc-/0/1740086077441?e=2147483647&v=beta&t=yh9qRWV5JtFHGJzfSdIvOsAPhVpSz8PQUTbfDWvbjTsv
+[lil-thumbnail-url]: https://media.licdn.com/dms/image/v2/D4E0DAQFiK74YvPrQZQ/learning-public-crop_675_1200/B4EZUlNmbzHcAc-/0/1740086077441?e=2147483647&v=beta&t=yh9qRWV5JtFHGJzfSdIvOsAPhVpSz8PQUTbfDWvbjTs
 
